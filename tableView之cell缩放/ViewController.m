@@ -39,7 +39,7 @@
     _WBTableView.dataSource = self;
     _WBTableView.delegate = self;
     
-    [self.view addSubview:_WBTableView];
+    [self.view addSubview:self.WBTableView]];
     
 }
 
